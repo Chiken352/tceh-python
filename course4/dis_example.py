@@ -10,7 +10,7 @@ class Test(object):
         print(cls.name)
 
     @staticmethod
-    def static_method():
+    def static_method(surname):
         print('static')
 
 if __name__ == '__main__':

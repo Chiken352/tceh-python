@@ -181,4 +181,4 @@ bower_components/
 
 build/
 dist/
-
+test_env/

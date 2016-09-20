@@ -17,6 +17,9 @@ class MathObject(object):
     def __gt__(self, other):
         return self.value > other
 
+    def __lt__(self, other):
+        return self.value < other
+
     # Operations:
     def __neg__(self):
         return -self.value

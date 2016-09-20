@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
 
 
+class Field(object):
+    def __init__(self):
+        self.size = 10
+        self.data = []
+        for i in range(self.size):
+            row = [0 for _ in range(self.size)]
+            self.data.append(row)
+
+
 class Storage(object):
     __obj = None
 
@@ -23,5 +32,3 @@ class Player(object):
 
 p = Player('Nikita')
 p.__str__()
-
-

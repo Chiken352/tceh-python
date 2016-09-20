@@ -6,19 +6,42 @@ except:
     print('Bad operation!')
 
 
+
+
+
+
+
+
+
+
+
+
 try:
     print(1/0)
 except Exception as ex:  # there's difference with `except:`
     print('Bad operation!', type(ex), ex)
 
+
+
+
+
+
+
 try:
-    print(1/0)
+    print({1: 'one'}[2])
 except ZeroDivisionError as ex:
     print('Divided by zero!', ex)
 
 
+
+
+
+
+
+
+
 try:
-    raise ValueError()
+    raise ValueError('My text')
 except ZeroDivisionError:
     print('Divided by zero!')
 except AttributeError:
@@ -26,6 +49,9 @@ except AttributeError:
 except Exception as ex:
     print("I don't know what's going on!")
     print(ex)
+
+
+
 
 
 try:
@@ -38,9 +64,14 @@ finally:
     print('finally')
 
 
+
+
+
+
+
 try:
     print('try')
-except:
+except ZeroDivisionError:
     pass
 else:
     print('else')
@@ -48,8 +79,10 @@ finally:
     print('finally')
 
 
+
+
+
 try:
     raise RuntimeError('Kill process')
 finally:
     print('This will be printed')
-

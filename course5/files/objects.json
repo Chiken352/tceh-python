@@ -1,0 +1,5 @@
+[
+  {"name": "Nikita", "age": 23, "is_male": true},
+  {"name": "Anna", "age": 22, "is_male": false},
+  {"name": "Igor", "age": 19, "is_male": true}
+]

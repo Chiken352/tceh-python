@@ -35,7 +35,7 @@ print(tuple1)
 
 # removing:
 # There's no direct way to delete an element from the tuple:
-tuple1 = tuple1 + ('string', 'one more', )
+tuple1 = (1, 2, 'string', 'one more', )
 print(tuple1)
 
 new_tuple = tuple()

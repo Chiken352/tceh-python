@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 
 
@@ -19,7 +18,10 @@ else:
     but_this_will = 'Yes.'
 
 print(but_this_will)
-print(this_wont_happen)
+print(this_wont_happen)  # error here
+
+
+
 
 
 # second:
@@ -28,16 +30,35 @@ value = var
 var = 10
 
 
+
+
+
+
+
+
+
 # third:
 var = 'big string, very long. so memory usage.'
 other = var
 del var  # you should not really do that.
 
 
+
+
+
+
+
+
+
 # fourth:
 var = 'string'
 value = var
-value += ' is immutable'
+value += ' is immutable'  # value = value + 'is ...'
+
+
+
+
+
 
 
 # what can be stored inside a variable? everything!

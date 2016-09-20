@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import sys
-
-
 # which function to use?
 if sys.version_info[0] == 2:
     input_function = raw_input

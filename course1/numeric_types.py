@@ -23,7 +23,7 @@ print('1j * 1j = ', 1j * 1j)  # 1j = sqrt(-1)
 
 
 # overfloating int:
-print()
+import sys
 print('sys.maxsize = ', sys.maxsize)
 
 print('sys.maxsize + 1 = ', sys.maxsize + 1)

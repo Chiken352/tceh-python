@@ -13,5 +13,4 @@ class CallableObject(object):
 
 if __name__ == '__main__':
     co = CallableObject(sum)
-
     print(co(1, 3, 19))

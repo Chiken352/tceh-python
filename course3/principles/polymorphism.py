@@ -19,13 +19,15 @@ class Child(Parent):
         print('Child')
 
 
+class Example(object):
+    def call(self):
+        print('Ex')
+
+
 def call_obj(obj):
     obj.call()
 
 
 if __name__ == '__main__':
-    Parent().call()
-    # Parent().call(1)
-    Child().call()
     call_obj(Child())
-
+    call_obj(Parent())
